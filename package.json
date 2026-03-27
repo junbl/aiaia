@@ -1,0 +1,21 @@
+{
+  "name": "dauii",
+  "displayName": "Dauii",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dauii",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dauii-color-theme.json"
+      }
+    ]
+  }
+}

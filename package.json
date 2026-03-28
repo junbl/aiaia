@@ -1,7 +1,10 @@
 {
   "name": "aiaia",
   "displayName": "Aiaia",
-  "description": "",
+  "description": "Dark color theme with bold colors, mostly used for Rust",
+  "repository": {
+    "url": "https://github.com/junbl/aiaia"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.110.0"

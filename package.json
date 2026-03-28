@@ -1,6 +1,6 @@
 {
-  "name": "dauii",
-  "displayName": "Dauii",
+  "name": "aiaia",
+  "displayName": "Aiaia",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dauii",
+        "label": "Aiaia",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dauii-color-theme.json"
+        "path": "./themes/Aiaia-color-theme.json"
       }
     ]
   }

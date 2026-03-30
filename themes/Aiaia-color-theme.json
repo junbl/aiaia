@@ -648,6 +648,7 @@
 			],
 			"settings": {
 				"foreground": "#53E2AE",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -704,6 +705,7 @@
 				"storage.type.primitive.array.java",
 				"entity.name.tag",
 				"support.class",
+				"support.type.primitive",
 			],
 			"settings": {
 				"foreground": "#fc9569",
@@ -748,7 +750,6 @@
 			"scope": [
 				"entity.name.namespace",
 				"support.type.object.module",
-				"support.type.primitive",
 			],
 			"settings": {
 				"foreground": "#fc9569",
@@ -855,7 +856,9 @@
 		{
 			"scope": [
 				"keyword.operator.logical",
-				"keyword.operator.logical.python",
+				"keyword.operator.expression.of",
+				"keyword.operator.arithmetic",
+				"keyword.operator.expression.typeof",
 				"keyword.operator.comparison"
 			],
 			"settings": {
@@ -939,7 +942,8 @@
 				"keyword.operator.lookahead.regexp",
 				"keyword.operator.quantifier.regexp",
 				"keyword.operator.negation.regexp",
-				"entity.name.type.lifetime"
+				"entity.name.type.lifetime",
+				"keyword.operator.ternary",
 			],
 			"settings": {
 				"foreground": "#ffc966"

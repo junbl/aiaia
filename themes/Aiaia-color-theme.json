@@ -489,6 +489,10 @@
 			"foreground": "#d8d8d8",
 			"fontStyle": "",
 		},
+		"variable.readonly:js": {
+			"foreground": "#d8d8d8",
+			"fontStyle": "bold",
+		},
 		"variable.static": {
 			"foreground": "#ffc966",
 			"fontStyle": "bold",
@@ -625,6 +629,22 @@
 		},
 		{
 			"scope": [
+				"fenced-code.block.language",
+			],
+			"settings": {
+				"foreground": "#bf94e6",
+			}
+		},
+		{
+			"scope": [
+				"markup.italic",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"scope": [
 				"markup.bold",
 			],
 			"settings": {
@@ -662,6 +682,8 @@
 				"meta.attribute",
 				"meta.indexed-name",
 				"variable.other.property",
+				"entity.name.label",
+				"meta.object-literal.key",
 				"variable.parameter.function-call",
 				"support.type.property-name",
 				"support.variable.property",
@@ -677,7 +699,9 @@
 		},
 		{
 			"scope": [
-				"variable.other"
+				"variable.other",
+				"variable.other.constant.js",
+				"variable.other.constant.ts",
 			],
 			"settings": {
 				"foreground": "#d8d8d8",
@@ -698,6 +722,7 @@
 				"constant.language",
 				"constant.other.caps",
 				"variable.other.constant",
+				"support.type.builtin",
 				"entity.name.type.result",
 				"entity.name.type.option"
 			],
@@ -828,6 +853,16 @@
 			}
 		},
 		{
+			"scope": [
+				"variable.other.readwrite.js",
+				"variable.other.readwrite.ts",
+			],
+			"settings": {
+				"foreground": "#d8d8d8",
+				"fontStyle": "underline"
+			}
+		},
+		{
 			"scope": "comment.line.documentation",
 			"settings": {
 				"foreground": "#c8c8c8"
@@ -885,6 +920,8 @@
 				"keyword.operator.logical",
 				"keyword.operator.expression.of",
 				"keyword.operator.arithmetic",
+				"keyword.operator.relational",
+				"keyword.operator.increment",
 				"keyword.operator.expression.typeof",
 				"keyword.operator.comparison"
 			],
@@ -988,6 +1025,7 @@
 				"string.regexp",
 				"string.unquoted.plain.out",
 				"string.unquoted.block",
+				"string.quoted.multi",
 				"string.regexp.quoted.single",
 				"string.quoted.double",
 				"string.quoted.single",

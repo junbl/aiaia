@@ -461,6 +461,10 @@
 			"foreground": "#fc9569",
 			"fontStyle": "bold"
 		},
+		"variable.defaultLibrary": {
+			"foreground": "#fc9569",
+			"fontStyle": "bold"
+		},
 		"operator.arithmetic": "#ffc966",
 		"operator.controlFlow": "#ffc966",
 		"comment": "#a2a3a6",
@@ -719,6 +723,14 @@
 		{
 			"scope": [
 				"string constant.other.placeholder",
+			],
+			"settings": {
+				"foreground": "#ff6673",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"constant.language",
 				"constant.other.caps",
 				"variable.other.constant",
@@ -863,7 +875,10 @@
 			}
 		},
 		{
-			"scope": "comment.line.documentation",
+			"scope": [
+				"comment.line.documentation",
+				"meta.jsx.children",
+			],
 			"settings": {
 				"foreground": "#c8c8c8"
 			}
@@ -921,6 +936,7 @@
 				"keyword.operator.expression.of",
 				"keyword.operator.arithmetic",
 				"keyword.operator.relational",
+				// "keyword.operator.type",
 				"keyword.operator.increment",
 				"keyword.operator.expression.typeof",
 				"keyword.operator.comparison"
@@ -945,6 +961,18 @@
 			],
 			"settings": {
 				"foreground": "#75ade6"
+			}
+		},
+		{
+			"scope": "string.quoted.other.backtick.sql",
+			"settings": {
+				"foreground": "#e8e8e8"
+			}
+		},
+		{
+			"scope": "source.sql",
+			"settings": {
+				"foreground": "#a2a3a6"
 			}
 		},
 		{
@@ -1006,6 +1034,7 @@
 				"keyword.operator.lookahead.regexp",
 				"keyword.operator.quantifier.regexp",
 				"keyword.operator.negation.regexp",
+				"keyword.operator.expression",
 				"entity.name.type.lifetime",
 				"keyword.operator.ternary",
 			],
@@ -1026,6 +1055,7 @@
 				"string.unquoted.plain.out",
 				"string.unquoted.block",
 				"string.quoted.multi",
+				"string.quoted.raw",
 				"string.regexp.quoted.single",
 				"string.quoted.double",
 				"string.quoted.single",

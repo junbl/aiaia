@@ -957,6 +957,7 @@
 		{
 			"scope": [
 				"meta.function-call.generic",
+				"meta.function-call.parens",
 				// "meta.function-call.generic.python",
 			],
 			"settings": {
